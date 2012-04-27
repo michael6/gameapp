@@ -1,8 +1,10 @@
 Gameapp::Application.routes.draw do
   get "pages/home" 
+  get "pages/stat"
+  get "pages/index"
   match 'pages/:type' => 'pages#result'
-  match 'index' => 'pages#home'
-  
+  root :to => "pages#index"
+ 
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
