@@ -4,7 +4,7 @@ gem 'rails', '3.2.2'
 gem 'bootstrap-sass'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
- 
+  
 gem 'sqlite3'
 
 
